@@ -2,8 +2,8 @@
 
   $operacao = "5" * 12;
 
-  echo $operacao . "<br>";
-
+  echo $operacao;
+  echo '<br>';
   echo gettype($operacao);
   echo "<br>";
   echo gettype([]);
